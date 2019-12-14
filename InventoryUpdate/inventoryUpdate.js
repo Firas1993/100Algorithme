@@ -1,3 +1,4 @@
+//  return array of false and true in the index of the subarray where the element exist 
 function existInArray2D(arr,element){
    return arr.map((item,index)=> item.includes(element));
 }
@@ -50,5 +51,6 @@ var newInv = [
     [67, "Bowling Ball"],
     [7, "Toothpaste"]
 ];
-//console.log(existInArray2D(newInv,curInv[0][1]));
-updateInventory(curInv, newInv);
+console.log(existInArray2D(newInv,curInv[0][1]));
+//updateInventory(curInv, newInv);
+ 
